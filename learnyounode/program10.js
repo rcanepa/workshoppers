@@ -1,5 +1,6 @@
 var net = require('net');
 
+// Return a string with the actual date and time using the XX-MM-DD HH:MM format
 function current_date(){
 	var date = new Date();
 	return date.getFullYear() + '-'
@@ -10,8 +11,9 @@ function current_date(){
 }
 
 var server = net.createServer(function (socket) {
-  socket.write(current_date());
-  socket.end('\n');
+	//socket.write(current_date());
+	//socket.end('\n');
+	socket.end(current_date() + '\n');
 })
 .listen(process.argv[2], function(){
 	console.log('Listening on port ' + process.argv[2]);
