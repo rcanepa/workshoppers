@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'functional-javascript-workshop@latest' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'functional-javascript-workshop@latest', null ]
+6 verbose cache add name=undefined spec="functional-javascript-workshop@latest" args=["functional-javascript-workshop@latest",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'functional-javascript-workshop@latest',
+7 verbose parsed url   path: 'functional-javascript-workshop@latest',
+7 verbose parsed url   href: 'functional-javascript-workshop@latest' }
+8 verbose cache add name="functional-javascript-workshop" spec="latest" args=["functional-javascript-workshop","latest"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'latest',
+9 verbose parsed url   path: 'latest',
+9 verbose parsed url   href: 'latest' }
+10 verbose addNamed [ 'functional-javascript-workshop', 'latest' ]
+11 verbose addNamed [ null, null ]
+12 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
+13 verbose lock functional-javascript-workshop@latest /home/rcanepa/.npm/47ac7295-ional-javascript-workshop-latest.lock
+14 info addNameTag [ 'functional-javascript-workshop', 'latest' ]
+15 verbose request where is /functional-javascript-workshop
+16 verbose request registry https://registry.npmjs.org/
+17 verbose request id a7bccbdc5a4573da
+18 verbose url raw /functional-javascript-workshop
+19 verbose url resolving [ 'https://registry.npmjs.org/',
+19 verbose url resolving   './functional-javascript-workshop' ]
+20 verbose url resolved https://registry.npmjs.org/functional-javascript-workshop
+21 verbose request where is https://registry.npmjs.org/functional-javascript-workshop
+22 info trying registry request attempt 1 at 18:45:23
+23 http GET https://registry.npmjs.org/functional-javascript-workshop
+24 http 200 https://registry.npmjs.org/functional-javascript-workshop
+25 silly registry.get cb [ 200,
+25 silly registry.get   { date: 'Sun, 16 Nov 2014 21:45:29 GMT',
+25 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly registry.get     etag: '"2BQRK8IHQ7JM9US3BH888RPLE"',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     'content-length': '27110',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '0',
+25 silly registry.get     'x-served-by': 'cache-sjc3123-SJC',
+25 silly registry.get     'x-cache': 'HIT',
+25 silly registry.get     'x-cache-hits': '1',
+25 silly registry.get     'x-timer': 'S1416174329.155231,VS0,VE32',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 verbose addNamed [ 'functional-javascript-workshop', '0.0.27' ]
+27 verbose addNamed [ '0.0.27', '0.0.27' ]
+28 silly lockFile b0131ce5-ional-javascript-workshop-0-0-27 functional-javascript-workshop@0.0.27
+29 verbose lock functional-javascript-workshop@0.0.27 /home/rcanepa/.npm/b0131ce5-ional-javascript-workshop-0-0-27.lock
+30 silly lockFile aae0a517-l-javascript-workshop-0-0-27-tgz https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz
+31 verbose lock https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz /home/rcanepa/.npm/aae0a517-l-javascript-workshop-0-0-27-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz',
+32 verbose addRemoteTarball   '939a2f1c11f3303c2baa21ee0692d2163b805541' ]
+33 info retry fetch attempt 1 at 18:45:29
+34 verbose fetch to= /tmp/npm-3673-R0OfEQhl/registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz
+35 http GET https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz
+36 http 200 https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz
+37 silly lockFile aae0a517-l-javascript-workshop-0-0-27-tgz https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz
+38 silly lockFile aae0a517-l-javascript-workshop-0-0-27-tgz https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz
+39 silly lockFile b0131ce5-ional-javascript-workshop-0-0-27 functional-javascript-workshop@0.0.27
+40 silly lockFile b0131ce5-ional-javascript-workshop-0-0-27 functional-javascript-workshop@0.0.27
+41 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
+42 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
+43 silly resolved [ { name: 'functional-javascript-workshop',
+43 silly resolved     version: '0.0.27',
+43 silly resolved     description: 'The basics of functional programming in JavaScript. No libraries required.',
+43 silly resolved     main: 'index.js',
+43 silly resolved     bin:
+43 silly resolved      { 'functional-javascript': 'functional-javascript.js',
+43 silly resolved        'functional-javascript-workshop': 'functional-javascript.js' },
+43 silly resolved     scripts: {},
+43 silly resolved     keywords: [ 'workshopper', 'tutorial', 'lesson' ],
+43 silly resolved     author: { name: 'Tim Oxley' },
+43 silly resolved     license: 'MIT',
+43 silly resolved     dependencies: { workshopper: '~0.7.2', 'lorem-ipsum': '~0.1.1' },
+43 silly resolved     gitHead: 'b0cbe50478a1ba1e95dafefd2f7e40460750aea0',
+43 silly resolved     _id: 'functional-javascript-workshop@0.0.27',
+43 silly resolved     _shasum: '939a2f1c11f3303c2baa21ee0692d2163b805541',
+43 silly resolved     _from: 'functional-javascript-workshop@latest',
+43 silly resolved     _npmVersion: '1.4.21',
+43 silly resolved     _npmUser: { name: 'timoxley', email: 'secoif@gmail.com' },
+43 silly resolved     maintainers: [ [Object] ],
+43 silly resolved     dist:
+43 silly resolved      { shasum: '939a2f1c11f3303c2baa21ee0692d2163b805541',
+43 silly resolved        tarball: 'http://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz' },
+43 silly resolved     directories: {},
+43 silly resolved     _resolved: 'https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz' } ]
+44 info install functional-javascript-workshop@0.0.27 into /usr/lib
+45 info installOne functional-javascript-workshop@0.0.27
+46 verbose lib/node_modules/functional-javascript-workshop unbuild
+47 verbose tar unpack /home/rcanepa/.npm/functional-javascript-workshop/0.0.27/package.tgz
+48 silly lockFile 1396172f-s-functional-javascript-workshop tar:///usr/lib/node_modules/functional-javascript-workshop
+49 verbose lock tar:///usr/lib/node_modules/functional-javascript-workshop /home/rcanepa/.npm/1396172f-s-functional-javascript-workshop.lock
+50 silly lockFile 2888943b-ript-workshop-0-0-27-package-tgz tar:///home/rcanepa/.npm/functional-javascript-workshop/0.0.27/package.tgz
+51 verbose lock tar:///home/rcanepa/.npm/functional-javascript-workshop/0.0.27/package.tgz /home/rcanepa/.npm/2888943b-ript-workshop-0-0-27-package-tgz.lock
+52 silly gunzTarPerm modes [ '775', '664' ]
+53 error Error: EACCES, mkdir '/usr/lib/node_modules/functional-javascript-workshop'
+53 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/functional-javascript-workshop']
+53 error   errno: 3,
+53 error   code: 'EACCES',
+53 error   path: '/usr/lib/node_modules/functional-javascript-workshop',
+53 error   fstream_type: 'Directory',
+53 error   fstream_path: '/usr/lib/node_modules/functional-javascript-workshop',
+53 error   fstream_class: 'DirWriter',
+53 error   fstream_stack:
+53 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+53 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+53 error      'Object.oncomplete (fs.js:107:15)' ] }
+54 error Please try running this command again as root/Administrator.
+55 error System Linux 3.13.0-39-generic
+56 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "functional-javascript-workshop@latest"
+57 error cwd /home/rcanepa/Development/tutorials/workshoppers/functional-javascript
+58 error node -v v0.10.33
+59 error npm -v 1.4.28
+60 error path /usr/lib/node_modules/functional-javascript-workshop
+61 error fstream_path /usr/lib/node_modules/functional-javascript-workshop
+62 error fstream_type Directory
+63 error fstream_class DirWriter
+64 error code EACCES
+65 error errno 3
+66 error stack Error: EACCES, mkdir '/usr/lib/node_modules/functional-javascript-workshop'
+67 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+67 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+67 error fstream_stack Object.oncomplete (fs.js:107:15)
+68 verbose exit [ 3, true ]

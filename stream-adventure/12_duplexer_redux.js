@@ -9,7 +9,8 @@ module.exports = function(counter){
 	function write (buffer) {
 		var country = buffer.country;
 		var keys = Object.keys(countries);
-		if (country in countries)
+		//if (country in countries)
+		if (countries.hasOwnProperty(country))
 			countries[country] += 1;
 		else
 			countries[country] = 1;
